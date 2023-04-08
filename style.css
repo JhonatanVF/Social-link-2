@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: sora, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#e2e2e2, #c8c6c6);
+}
+
+.banner {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 950px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("./images/teste6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 440px;
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.image-container {
+    position: absolute;
+    margin-right: 30%;
+}
+
+.image {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.text-container {
+    margin-left: 150px;
+}
+
+.text {
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 50px;
+    width: 100px;
+    padding: 15px;
+    text-decoration: none;
+    justify-content: center;
+    transition: transform 1s;
+    transform: scale(15px);
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
